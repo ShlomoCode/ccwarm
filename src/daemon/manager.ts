@@ -76,7 +76,9 @@ export async function startDaemon(): Promise<boolean> {
     }
 
     if (plan) {
-      consola.info(`Next warmup: ${getNextWarmupDate(plan.targetMinute).toLocaleString()}`);
+      consola.info(
+        `Next warmup: ${getNextWarmupDate(plan.targetMinute).toLocaleString(undefined, { dateStyle: 'short', timeStyle: 'short' })}`
+      );
     }
 
     return true;
