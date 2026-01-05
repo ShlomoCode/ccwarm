@@ -37,5 +37,10 @@
     "consola": "^3.4.2",
     "execa": "^9.6.1",
     "pm2": "^6.0.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShlomoCode/ccwarm.git"
+  },
+  "homepage": "https://github.com/ShlomoCode/ccwarm"
 }
